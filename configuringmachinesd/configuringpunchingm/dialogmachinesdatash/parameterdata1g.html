@@ -27,8 +27,8 @@
    <button class="tree closed"></button>
    <a href="../../../basicsgeneral/index.html">General</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../../../basicsgeneral/startingandexit.html">Starting TruTops Boost</a></li>
-    <li><button class="tree blank"></button><a href="../../../basicsgeneral/mousegesturesan.html">Mouse gestures</a></li>
+    <li><button class="tree blank"></button><a href="../../../basicsgeneral/startingandexit.html">Starting and exiting TruTops Boost</a></li>
+    <li><button class="tree blank"></button><a href="../../../basicsgeneral/mousegesturesan.html">Mouse gestures and touch gestures</a></li>
     <li>
      <button class="tree closed"></button>
      <a href="../../../basicsgeneral/multitouch/index.html">Multi-touch</a>
@@ -54,7 +54,7 @@
   </li>
   <li>
    <button class="tree open"></button>
-   <a href="../../index.html">Configuring machines</a>
+   <a href="../../index.html">Configuring machines: Data Manager Cut</a>
    <ul>
     <li><button class="tree blank"></button><a href="../../openingdatamana.html">Opening Data Manager Cut in HomeZone</a></li>
     <li><button class="tree blank"></button><a href="../../openingdataman1.html">Opening Data Manager Cut in TecZone Cut</a></li>
@@ -1671,7 +1671,7 @@ file</a></li>
   </button>
  </div>
  <div>
-  <a href="../../index.html">Configuring machines</a>
+  <a href="../../index.html">Configuring machines: Data Manager Cut</a>
  </div>
  <div>/</div>
  <div>
@@ -1715,7 +1715,7 @@ on the nameplate.</p>
 <div class="sectionbody">
 <div class="paragraph">
 <p>To display the SheetMaster, there is a drawing of the lift in TRUMPF delivery
-condition under <em>&gt;\\localhost\TruTops_Shared\Cut\Lift</em>.</p>
+condition under <code>&gt;\\localhost\TruTops_Shared\Cut\Lift</code>.</p>
 </div>
 </div>
 </div>
@@ -1734,10 +1734,10 @@ machine.</p>
 <div class="ulist">
 <ul>
 <li>
-<p>direct: All lift functions are output at the point where they are needed.</p>
+<p><em>direct</em>: All lift functions are output at the point where they are needed.</p>
 </li>
 <li>
-<p>time-optimized: All preparatory functions such as suction cup coupling or lift
+<p><em>time-optimized</em>: All preparatory functions such as suction cup coupling or lift
 coordinates are output as early as possible in order to integrate the
 transmission time into the machine runtime.</p>
 </li>
@@ -1749,12 +1749,12 @@ transmission time into the machine runtime.</p>
 <h2 id="_peeling_package_loading">Peeling package (loading)</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>yes: peeling package option available on SheetMaster.</p>
+<p><em>yes</em>: peeling package option available on SheetMaster.</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>Peeling package (loading) is grayed out:</p>
+<p><em>Peeling package (loading)</em> is grayed out:</p>
 <div class="ulist">
 <ul>
 <li>
@@ -1781,7 +1781,7 @@ defined by TRUMPF in the database.</p>
 <i class="fa icon-note" title="Note"></i>
 </td>
 <td class="content">
-Sheet thickness detector (loading) is grayed out if the lift has no
+<em>Sheet thickness detector (loading)</em> is grayed out if the lift has no
 loading function. This option is defined by TRUMPF in the database.
 </td>
 </tr>
@@ -1790,7 +1790,7 @@ loading function. This option is defined by TRUMPF in the database.
 <div class="ulist">
 <ul>
 <li>
-<p>manual:</p>
+<p><em>manual</em>:</p>
 <div class="ulist">
 <ul>
 <li>
@@ -1803,10 +1803,10 @@ loading function. This option is defined by TRUMPF in the database.
 </div>
 </li>
 <li>
-<p>mechanical: The material thickness is checked by a probe arm.</p>
+<p><em>mechanical</em>: The material thickness is checked by a probe arm.</p>
 </li>
 <li>
-<p>inductive: The material thickness is checked inductively. The double sheet
+<p><em>inductive</em>: The material thickness is checked inductively. The double sheet
 detector is programmable.</p>
 </li>
 </ul>
@@ -1823,8 +1823,8 @@ detector is programmable.</p>
 <i class="fa icon-note" title="Note"></i>
 </td>
 <td class="content">
-Prepare loading at program end (loading) is grayed out if the lift has no
-loading function. This option is defined by TRUMPF in the database.
+<em>Prepare loading at program end (loading)</em> is grayed out if the lift has
+no loading function. This option is defined by TRUMPF in the database.
 </td>
 </tr>
 </table>
@@ -1834,20 +1834,20 @@ loading function. This option is defined by TRUMPF in the database.
 processed.</p>
 </div>
 <div class="paragraph">
-<p>These options are used to define the default settings. Apart from impossible,
-the performance can be modified under NC program.</p>
+<p>These options are used to define the default settings. Apart from <em>impossible</em>,
+the performance can be modified under <em>NC program</em>.</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>impossible: In this case, preparatory loading is not possible at all, and this
+<p><em>impossible</em>: In this case, preparatory loading is not possible at all, and this
 setting is applied as the default.</p>
 </li>
 <li>
-<p>No: Preparatory loading is possible but is not preset.</p>
+<p><em>No</em>: Preparatory loading is possible but is not preset.</p>
 </li>
 <li>
-<p>yes: Preparatory loading is possible and is preset.</p>
+<p><em>yes</em>: Preparatory loading is possible and is preset.</p>
 </li>
 </ul>
 </div>
@@ -1867,9 +1867,9 @@ loading and unloading. The weight is specified in kg.</p>
 <i class="fa icon-note" title="Note"></i>
 </td>
 <td class="content">
-The parameters for Loading and Unload are grayed out depending on whether
-the lift has a loading function, unloading function or both functions. This
-option is defined by TRUMPF in the database.
+The parameters for <em>Loading</em> and <em>Unload</em> are grayed out depending on
+whether the lift has a loading function, unloading function or both functions.
+This option is defined by TRUMPF in the database.
 </td>
 </tr>
 </table>
@@ -1880,7 +1880,7 @@ option is defined by TRUMPF in the database.
 <h2 id="_x_dimension_sheet_edge_lift_zero_point">X dimension sheet edge lift zero point</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Loading and Unload: X dim. measured in mm from the sheet edge to the zero point
+<p><em>Loading</em> and <em>Unload</em>: X dim. measured in mm from the sheet edge to the zero point
 of the SheetMaster.</p>
 </div>
 <div class="admonitionblock note">
@@ -1890,9 +1890,9 @@ of the SheetMaster.</p>
 <i class="fa icon-note" title="Note"></i>
 </td>
 <td class="content">
-The parameters for Loading and Unload are grayed out depending on whether
-the lift has a loading function, unloading function or both functions. This
-option is defined by TRUMPF in the database.
+The parameters for <em>Loading</em> and <em>Unload</em> are grayed out depending on
+whether the lift has a loading function, unloading function or both functions.
+This option is defined by TRUMPF in the database.
 </td>
 </tr>
 </table>
@@ -1903,7 +1903,7 @@ option is defined by TRUMPF in the database.
 <h2 id="_x_dimension_sheet_edge_lift_reference_point">X dimension sheet edge lift reference point</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p><em>Loading and Unload</em>: X dim. measured in mm from the sheet edge to the reference
+<p><em>Loading</em> and <em>Unload</em>: X dim. measured in mm from the sheet edge to the reference
 point of the SheetMaster.</p>
 </div>
 <div class="admonitionblock note">
@@ -1913,9 +1913,9 @@ point of the SheetMaster.</p>
 <i class="fa icon-note" title="Note"></i>
 </td>
 <td class="content">
-The parameters for Loading and Unload are grayed out depending on whether
-the lift has a loading function, unloading function or both functions. This
-option is defined by TRUMPF in the database.
+The parameters for <em>Loading</em> and <em>Unload</em> are grayed out depending on
+whether the lift has a loading function, unloading function or both functions.
+This option is defined by TRUMPF in the database.
 </td>
 </tr>
 </table>

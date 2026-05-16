@@ -27,8 +27,8 @@
    <button class="tree closed"></button>
    <a href="basicsgeneral/index.html">General</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="basicsgeneral/startingandexit.html">Starting TruTops Boost</a></li>
-    <li><button class="tree blank"></button><a href="basicsgeneral/mousegesturesan.html">Mouse gestures</a></li>
+    <li><button class="tree blank"></button><a href="basicsgeneral/startingandexit.html">Starting and exiting TruTops Boost</a></li>
+    <li><button class="tree blank"></button><a href="basicsgeneral/mousegesturesan.html">Mouse gestures and touch gestures</a></li>
     <li>
      <button class="tree closed"></button>
      <a href="basicsgeneral/multitouch/index.html">Multi-touch</a>
@@ -54,7 +54,7 @@
   </li>
   <li>
    <button class="tree closed"></button>
-   <a href="configuringmachinesd/index.html">Configuring machines</a>
+   <a href="configuringmachinesd/index.html">Configuring machines: Data Manager Cut</a>
    <ul class="hide">
     <li><button class="tree blank"></button><a href="configuringmachinesd/openingdatamana.html">Opening Data Manager Cut in HomeZone</a></li>
     <li><button class="tree blank"></button><a href="configuringmachinesd/openingdataman1.html">Opening Data Manager Cut in TecZone Cut</a></li>
@@ -1679,21 +1679,75 @@ file</a></li>
                 <div id="site-toc-left">
                     <article id="article">
                         <h1>Welcome to TecZone Cut</h1>
+<div id="preamble">
+<div class="sectionbody">
 <div class="paragraph">
 <p><span class="image"><img src="img/250379403__web.png" alt="250379403  Web" width="800"></span></p>
 </div>
 <div class="paragraph">
-<p>TruTops Boost is a software for designing parts and for the continuous
-programming of 2D laser, punching, punch laser and bending machines. TruTops
-Boost combines automatic processing and monitoring, from the order to the
-finished NC file, in one software program. Dependencies are taken into account
-between the linked technologies: design, bending, nesting, cutting and punching.</p>
+<p>TecZone Cut is the programming environment within TruTops Boost for creating laser, punch, and nested cutting programs. It provides automated waste slug management (for example, dividing circular scraps into segments to prevent tilting), optimized nesting, and automatic sorting and removal toolpaths.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_key_features_and_functions">Key features and functions</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Some of the key features and functions of TecZone Cut include:</p>
+</div>
+<div class="paragraph">
+<p><strong>Waste disposal:</strong> Circular waste is automatically divided into segments, ensuring consistent and safe scrap disposal.</p>
+</div>
+<div class="paragraph">
+<p><strong>Nesting and cutting:</strong> Nesting layouts are optimized to reduce setup times and improve material utilization with minimal user input.</p>
+</div>
+<div class="paragraph">
+<p><strong>Integrated workflow:</strong> TecZone Cut is directly connected to TecZone Design, TecZone Bend, and HomeZone. Changes to part geometries are automatically applied to the cutting layout.</p>
+</div>
+<div class="paragraph">
+<p><strong>Sorting:</strong> Removal paths for automation components such as the SheetMaster and SortMaster Speed are created automatically.</p>
+</div>
+<div class="paragraph">
+<p><strong>Machine support:</strong> Specialized programming is available for TRUMPF laser, punch, and combination machines.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_capabilities">Capabilities</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Some of the capabilities of TecZone Cut include:</p>
+</div>
+<div class="paragraph">
+<p><strong>Contour recognition:</strong> Contours are detected automatically and the appropriate technology settings are applied, enabling near-fully automatic programming.</p>
+</div>
+<div class="paragraph">
+<p><strong>Nesting:</strong> Efficient nesting and nesting optimization allow multiple parts to be arranged on a single sheet layout.</p>
+</div>
+<div class="paragraph">
+<p><strong>Handling:</strong> Toolpaths for part handling, including removal and sorting sequences, are generated automatically.</p>
+</div>
+<div class="paragraph">
+<p><strong>Process reliability:</strong> Process safety is improved, particularly when removing large or unusually shaped scrap pieces.</p>
+</div>
+</div>
 </div>
 
                     </article>
                 </div>
                 <div id="site-toc-holder">
-                    <aside id="site-toc"></aside>
+                    <aside id="site-toc">
+ <h3>Contents</h3>
+ <ul>
+  <li level="1">
+   <a href="#_key_features_and_functions">Key features and functions</a>
+  </li>
+  <li level="1">
+   <a href="#_capabilities">Capabilities</a>
+  </li>
+ </ul>
+</aside>
+
                 </div>
             </div>
             <nav class="pagination">
@@ -1712,7 +1766,7 @@ between the linked technologies: design, bending, nesting, cutting and punching.
         </div>
         <div class="middle"></div>
         <div class="right">
-            <p>Compiled 2026.05.14 by Bento 58</p>
+            <p>Compiled 2026.05.15 by Bento 58</p>
             <img src="res/bento.png" />
         </div>
     </footer>

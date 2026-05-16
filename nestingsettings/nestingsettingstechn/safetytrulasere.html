@@ -27,8 +27,8 @@
    <button class="tree closed"></button>
    <a href="../../basicsgeneral/index.html">General</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../../basicsgeneral/startingandexit.html">Starting TruTops Boost</a></li>
-    <li><button class="tree blank"></button><a href="../../basicsgeneral/mousegesturesan.html">Mouse gestures</a></li>
+    <li><button class="tree blank"></button><a href="../../basicsgeneral/startingandexit.html">Starting and exiting TruTops Boost</a></li>
+    <li><button class="tree blank"></button><a href="../../basicsgeneral/mousegesturesan.html">Mouse gestures and touch gestures</a></li>
     <li>
      <button class="tree closed"></button>
      <a href="../../basicsgeneral/multitouch/index.html">Multi-touch</a>
@@ -54,7 +54,7 @@
   </li>
   <li>
    <button class="tree closed"></button>
-   <a href="../../configuringmachinesd/index.html">Configuring machines</a>
+   <a href="../../configuringmachinesd/index.html">Configuring machines: Data Manager Cut</a>
    <ul class="hide">
     <li><button class="tree blank"></button><a href="../../configuringmachinesd/openingdatamana.html">Opening Data Manager Cut in HomeZone</a></li>
     <li><button class="tree blank"></button><a href="../../configuringmachinesd/openingdataman1.html">Opening Data Manager Cut in TecZone Cut</a></li>
@@ -1712,7 +1712,7 @@ file</a></li>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><em>Fixing type</em></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Microjoints or nanojoints are possible.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="../../technology/technologytoolpathmi/microjointspara.html">Microjoints</a> or <a href="../../technology/2dlasermachinestechn/nanojointsparam.html">nanojoints</a> are possible.</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><em>Microjoints can be changed at the machine</em></p></td>
@@ -1721,7 +1721,7 @@ file</a></li>
 <tr>
 <td class="tableblock halign-left valign-top"></td>
 <td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p>Contours at risk of tilting are fixed to the sheet using nanojoints.</p>
+<p>Contours at risk of tilting are fixed to the sheet using <a href="../../technology/2dlasermachinestechn/nanojointsparam.html">nanojoints</a>.</p>
 </div>
 <div class="paragraph">
 <p>If the control version of the machine supports this function: The operator can change nanojoints on the machine.</p>
@@ -1819,19 +1819,23 @@ file</a></li>
 <div class="sect1">
 <h2 id="_cropping_cropping_strategy">Cropping: Cropping strategy</h2>
 <div class="sectionbody">
-<div class="paragraph">
-<p>Cropping strategy: Which contours should be cut automatically?</p>
-</div>
 <div class="ulist">
 <ul>
 <li>
-<p>No contours</p>
+<p>Cropping strategy: Which contours should be cut automatically?</p>
+<div class="ulist">
+<ul>
+<li>
+<p><em>No contours</em></p>
 </li>
 <li>
-<p>All inner contours at risk of tilting</p>
+<p><em>All inner contours at risk of tilting</em></p>
 </li>
 <li>
-<p>All inner contours that are not falling: Falling inner contours are small contours that fall easily through the webs and do not tilt.</p>
+<p><em>All inner contours that are not falling</em>: Falling inner contours are small contours that fall easily through the webs and do not tilt.</p>
+</li>
+</ul>
+</div>
 </li>
 </ul>
 </div>
@@ -1965,7 +1969,7 @@ Scrap squares can tilt after cropping and lead to collisions!</p>
 <div class="ulist">
 <ul>
 <li>
-<p>45°: for CrNi steel with 10 mm sheet thickness<br></p>
+<p>45°: for <code>CrNi</code> steel with 10 mm sheet thickness<br></p>
 </li>
 <li>
 <p>90° (presetting): for all other sheet types</p>
@@ -2006,7 +2010,7 @@ Scrap squares can tilt after cropping and lead to collisions!</p>
 </ul>
 </div>
 <div class="paragraph">
-<p>See Setting process options</p>
+<p>See <a href="../../technology/technologycreatingpr/2dlasermachinesmachi/processoptionsparame/settingprocesso.html">Setting process options</a></p>
 </div>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
@@ -2065,7 +2069,7 @@ Scrap squares can tilt after cropping and lead to collisions!</p>
 <tbody>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><em>Activate pathfinder</em></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">The <em>Pathfinder</em> checks whether positioning paths run over already cut contours and attempts to go around them, if possible. If positioning does not take place over contours that have already been cut, the cutting head remains at cutting distance. This procedure saves a considerable amount of time, as there is no need to raise and lower the cutting head between processing and positioning.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">The <code>Pathfinder</code> checks whether positioning paths run over already cut contours and attempts to go around them, if possible. If positioning does not take place over contours that have already been cut, the cutting head remains at cutting distance. This procedure saves a considerable amount of time, as there is no need to raise and lower the cutting head between processing and positioning.</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><em>With positioning on cutting distance</em></p></td>
@@ -2126,17 +2130,10 @@ Scrap squares can tilt after cropping and lead to collisions!</p>
 </tr>
 </tbody>
 </table>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_see_also">See also</h2>
-<div class="sectionbody">
-<div class="ulist">
-<ul>
-<li>
-<p><a href="./../../configuringmachinesd/updatingmachineseria/automaticallyup.html">Automatically updating machine serial release</a></p>
-</li>
-</ul>
+<div class="paragraph">
+<div class="title">See</div>
+<p>-
+<a href="../../configuringmachinesd/updatingmachineseria/automaticallyup.html">Automatically updating machine serial release</a></p>
 </div>
 </div>
 </div>
@@ -2170,9 +2167,6 @@ Scrap squares can tilt after cropping and lead to collisions!</p>
   </li>
   <li level="1">
    <a href="#_positioning">Positioning</a>
-  </li>
-  <li level="1">
-   <a href="#_see_also">See also</a>
   </li>
  </ul>
 </aside>
